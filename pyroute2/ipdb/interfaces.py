@@ -37,7 +37,7 @@ groups = rtnl.RTNLGRP_LINK |\
 def _get_data_fields():
     ret = []
     for data in ('bridge',
-                 'bond',
+#                 'bond',
                  'tuntap',
                  'vxlan',
                  'gre',
